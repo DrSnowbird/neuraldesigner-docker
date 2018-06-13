@@ -19,7 +19,7 @@ Image is pulling from openkbs/docker-neuraldesigner
 ```
 
 ## Need to register at Neural Designer web site to login the GUI IDE of Neural Designer
-Go to https://www.neuraldesigner.com/user/signup to register then login to the GUI IDE of Nerual 
+Go to https://www.neuraldesigner.com/user/signup to register then login to the GUI IDE of Nerual Designer
 
 # Build
 You can build your own image locally.

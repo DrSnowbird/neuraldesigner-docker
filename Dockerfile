@@ -14,11 +14,11 @@ ARG VCS_REF=${BUILD_DATE:-}
 
 #### ---- Product Specifications ----
 ARG PRODUCT=${PRODUCT:-}
-ARG PRODUCT_VERSION=${PRODUCT_VERSION:-}
-ARG PRODUCT_URL=${PRODUCT_URL:-}
+ARG PRODUCT_VERSION=${PRODUCT_VERSION:-2.9.5}
+ARG PRODUCT_URL=${PRODUCT_URL:-https://www.neuraldesigner.com/files/neuraldesigner_2.9.5_amd64.deb}
 ARG PRODUCT_TAR=${PRODUCT_TAR:-}
-ARG PRODUCT_DIR=${PRODUCT_DIR:-}
-ARG PRODUCT_EXE=${PRODUCT_EXE:-}
+ARG PRODUCT_DIR=${PRODUCT_DIR:-/usr/share/neuraldesigner}
+ARG PRODUCT_EXE=${PRODUCT_EXE:-/usr/share/neuraldesigner/bin/runneuraldesigner.sh}
 
 ENV PRODUCT=${PRODUCT}
 ENV PRODUCT_VERSION=${PRODUCT_VERSION}
